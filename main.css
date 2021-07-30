@@ -1,0 +1,156 @@
+html{
+    font-family:"Open Sans", sans-serif ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* navbar*/
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 4.5rem;
+
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+#navbar ul li a{
+    padding: 0.5rem;
+    /* margin: 0.5rem; */
+
+}
+#navbar ul li a:hover{
+    background:#336ea2 ;
+    border-radius: 4px;
+    /* margin: 0.5rem; */
+
+}
+/*home*/
+#home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom:1px solid grey;
+
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom 0.75rem; ;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+
+}
+/* #home a{
+    margin-top: 1.25rem;
+    background: #336ea2;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+#home a:hover{
+    color: #336ea2;
+    background: #fff;
+    border: 0.5px solid #336ea2;
+} */
+#training{
+    padding: 1rem;
+
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#training .item{
+    width: 33%;
+    text-align: center;
+    padding:0.5rem ;
+    color: #fff;
+
+}
+#training .item:hover{
+    color: red;
+    opacity: 0.6;
+
+}
+#training h3{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+#courses{
+    color:#333 ;
+    padding:1rem
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding:1rem ;
+
+}
+.course{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.course-image{
+    margin-right: 0.5rem;
+    position: relative;
+}
+.course-image img{
+    border-radius: 5px;
+}
+.course-image span{
+    background: red;
+    padding:0.25rem ;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+.course-info .title{
+    letter-spacing: 0.10rem;
+    font-weight:700 ;
+    margin-bottom: 0.25rem;
+
+}
+.course-info .description{
+    letter-spacing: 0.10rem;
+    opacity: 0.6;
+    margin-bottom: 0.25rem;
+
+}
+#contact{
+    color: #fff;
+    padding: 1rem;
+}
+.contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+}
